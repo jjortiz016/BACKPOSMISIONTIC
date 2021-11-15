@@ -1,0 +1,29 @@
+{
+  "name": "apliexpress",
+  "version": "1.0.0",
+  "description": "Pos proyecto mintic",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjortiz016/BACKPOSMISIONTIC.git"
+  },
+  "author": "Jhon Jairo Ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjortiz016/BACKPOSMISIONTIC/issues"
+  },
+  "homepage": "https://github.com/jjortiz016/BACKPOSMISIONTIC#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.3.0"
+  }
+}
